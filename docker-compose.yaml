@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  code-server:
+    build: . 
+    image: jasondewitt/code-server
+    #image: codercom/code-server:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - ./config/code-server.yaml:/home/code/code-server.yaml
+    environment: {}
+    container_name: code-server
+
+
+
