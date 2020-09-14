@@ -13,7 +13,7 @@ data:
   config.yaml: |
     bind-addr: 0.0.0.0:8080
     auth: password
-    password: 5ea866031fa6e07551fda156
+    password: insert_password_here
     cert: false
     user-data-dir: /home/code/data
     extensions-dir: /home/code/extensions
